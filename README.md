@@ -7,12 +7,12 @@ This repository contains a collection of R scripts developed for various bioinfo
 # List of Scripts and Descriptions
 
 **1. 16s_dmsz_ncbi.R**
-Purpose: Retrieves and processes 16S rRNA sequence data from DSMZ and NCBI databases.
-Features:
+- Purpose: Retrieves and processes 16S rRNA sequence data from DSMZ and NCBI databases.
+- Features:
 Fetches 16S rRNA sequences by ID.
 Formats sequences for downstream analysis.
-Dependencies: httr, jsonlite, seqinr.
-Use Case: Constructing reference databases or analyzing microbial communities.
+- Dependencies: httr, jsonlite, seqinr.
+- Use Case: Constructing reference databases or analyzing microbial communities.
 
 **2. Deseq_COPD_RA_RNAseq.R**
 Purpose: Performs differential expression analysis on RNA-seq data from COPD and RA studies.
